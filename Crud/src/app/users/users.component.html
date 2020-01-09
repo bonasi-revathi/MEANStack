@@ -1,0 +1,14 @@
+<div class="grid-container">
+  <div>
+    <div class="card">
+    <div class="container" *ngFor="let c of userData">
+      <h2><b>{{c.name}}</b></h2>
+      <p>{{c.email}}</p>
+      <h3>
+        {{c.phone}}
+      </h3>
+  </div>
+  </div>
+</div>
+</div>
+<!-- <app-home [datafromuser]="userData"></app-home> -->
